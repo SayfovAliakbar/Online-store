@@ -61,6 +61,30 @@
 .btnForBuy {
     display: none;
 }
+.imgWrapper {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+  
+.clickText {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+  
+.box:hover .clickText {
+    display: block;
+}
+  
+  
 .box:hover {
     border: 2px solid rgb(201, 201, 201);
     border-radius: 10px;
@@ -71,6 +95,9 @@
     border-radius: 5px;
     padding: 5px 25px;
 }
+.box:hover .img {
+    filter: brightness(60%);
+}  
 .numberOfBuyingThings {
     position: absolute;
     right: 160px;

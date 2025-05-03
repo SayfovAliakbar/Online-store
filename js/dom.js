@@ -26,12 +26,13 @@ function render(data) {
         let box = document.createElement("div");
         box.classList.add("box");
         box.innerHTML = `
-            <div>
+            <div class="imgWrapper">
                 <img src="${el.img}" class="img">
-                <p>${el.name}</p>
-                <p class="price"><b>$${el.price.toFixed(2)}</b></p>
-                <button class="btnForBuy">Buy</button>
+                <button class="clickText">Click</button>
             </div>
+            <p>${el.name}</p>
+            <p class="price"><b>$${el.price.toFixed(2)}</b></p>
+            <button class="btnForBuy">Buy</button>
         `;
 
         let btnForBuy = box.querySelector(".btnForBuy");
@@ -40,7 +41,7 @@ function render(data) {
             updateCartCounter();
         }
 
-        let infoImg = box.querySelector(".img");
+        let infoImg = box.querySelector(".clickText");
         let imgInInfoModal = document.querySelector(".imgInInfoModal");
         let infoPrice = document.querySelector(".infoPrice");
         let description = document.querySelector(".description");
