@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+}
+.lkn {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.homeAndProducts {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    background-color: rgba(241, 245, 248, 1);
+}
+.homeAndProducts button{
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: rgba(35, 82, 117, 1);
+}
+.his {
+    text-align: center;
+    font-size: 50px;
+}
+.lorem {
+    text-align: center;
+    font-size: 25px;
+    padding: 0px 150px;
+}

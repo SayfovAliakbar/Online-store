@@ -1,0 +1,87 @@
+.header {
+    position: relative;
+    overflow: hidden; 
+    color: white;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(./c0066f4cb4e3d1753ca503c388370c56c985c7ec.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1; 
+}
+
+.content {
+    position: relative;
+    z-index: 1; 
+    text-align: left; 
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.h {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.nnav {
+    margin-left: 200px;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.header p, button {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.show {
+    background-color: transparent;
+    color: white;
+    border: 1.5px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fea {
+    text-align: center; 
+    font-size: 50px;
+}
+
+.example {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.pr {
+    font-size: 25px;
+}
+
+.link {
+    margin-left: 40%;
+    background-color: rgba(186, 93, 44, 1);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+}

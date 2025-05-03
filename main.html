@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <dialog class="groceryModal">
+        <button class="closeGroceryModal">❌</button>
+        <br><br><br>
+        <div class="groceryAll"></div>
+        <div class="totalDiv">
+            <p class="TTT">Total:</p>
+            <p class="total"></p>
+        </div>
+    </dialog>
+
+
+    <dialog class="infoModal">
+        <div class="nav">
+            <div>
+                <p>Home</p>
+                <p>Products</p>
+                <p>About</p>
+            </div>
+            <img src="./comfy (1).png">
+            <img src="./map_grocery-or-supermarket (1).png" alt="">
+        </div>
+
+        <br><br><br>
+
+        <div class="homeAndProducts">
+            <a href="./open.html">
+                <button>Home /</button>
+            </a>
+            
+            <a href="./main.html">
+                <button> Albany Table</button>
+            </a>
+        </div>
+
+        <br><br><br>
+
+        <div class="mainInfo">
+            <img src="" class="imgInInfoModal">
+
+            <div class="priNamComCol">
+                <div>
+                    <div>
+                        <h1 class="infoName"></h1>
+                        <br>
+                        <p class="infoCompany"></p>
+                    </div>
+                    <br>
+                    <div class="colors">
+                        <p class="infoPrice"></p>
+                        <div class="btnColors">
+                            <button class="redBtn"></button>
+                            <button class="blackBtn"></button>
+                        </div>
+                    </div>
+                    <br>
+                    <p class="description"></p>
+                    <br><br>
+                    <button class="infoModalClose">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br>
+    </dialog>
+
+
+
+    <div class="nav">
+        <div>
+            <a href="./open.html">
+                <button>Home</button>
+            </a>
+
+            <a href="./main.html">
+                <button>Products</button>
+            </a>
+            
+            <a href="./about.html">
+                <button>About</button>
+            </a>
+        </div>
+        <img src="./comfy (1).png">
+        <img src="./map_grocery-or-supermarket (1).png" class="openGroceryModal">
+    </div>
+
+    <br><br><br>
+
+    <div class="homeAndProducts">
+        <a href="./open.html">
+            <button>Home /</button>
+        </a>
+        
+        <a href="./main.html">
+            <button>Products</button>
+        </a>
+    </div>
+
+    <br><br><br>
+
+    <div class="main">
+        <div class="searchAndButtons">
+            <input type="search" placeholder="Search..." class="inputForSearch">
+            <br><br><br>
+            <h2>Company</h2>
+            <button>All</button>
+            <br><br>
+            <button>Ikea</button>
+            <br><br>
+            <button>Marcos</button>
+            <br><br>
+            <button>Caressa</button>
+            <br><br>
+            <button>Liddy</button>
+        </div>
+
+        <div class="all"></div>
+    </div>
+
+    <p class="numberOfBuyingThings">0</p>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
