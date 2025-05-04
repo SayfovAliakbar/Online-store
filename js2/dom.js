@@ -1,6 +1,6 @@
 let example = document.querySelector(".example");
 let allData = [];
-let currentIndex = 0; // индекс начала текущего среза
+let currentIndex = 0; 
 
 function get(data) {
     allData = data;
@@ -10,7 +10,6 @@ function get(data) {
 function render() {
     example.innerHTML = "";
     
-    // Срез данных для отображения только 3 элементов
     const dataToShow = allData.slice(currentIndex, currentIndex + 3);
     
     dataToShow.forEach(el => {
